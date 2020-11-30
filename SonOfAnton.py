@@ -6,10 +6,10 @@ import tweepy #Tweeter API helper
 import cryptocompare #Cryptocompare API that gets crypto prices. 
 
 #Validation to use the Twitter API.
-consumer_key = "CUtaXY1fdcZf8b3TCqncsTwHT"
-consumer_secret= "28yOWNF2ENlUjTL1S6iVV238LEPs53CatldGhfHAxvttH7yidp"
-access_token = "328524097-ufDmMU5l9l5sVWLyEXha4WIRG4v4kB5I0CCEXMM2"
-access_token_secret= "JMIGZn9ch2zNuzuheYPBKfhbiylT0EUeRofESVrgLLsMO"
+consumer_key = "your consumer key"
+consumer_secret= "your consumer secret"
+access_token = "your access token"
+access_token_secret= "your_access_token"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
